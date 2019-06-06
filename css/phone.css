@@ -1,0 +1,18 @@
+  header {
+        padding-top: 20px;
+        padding-bottom: 90px;
+    }
+
+    aside {
+        width: 100vw;
+        padding-top: 0px;
+    }
+
+    aside .avatar img {
+        width: 100px;
+        height: 100px;
+    }
+    .item img{
+        width: 300px;
+        height: 150px;
+    }

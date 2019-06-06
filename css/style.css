@@ -248,22 +248,7 @@ main section{
 .about li{
     line-height: 1.5;
 }
-@media (max-width: 768px) {
-    header {
-        padding-top: 20px;
-        padding-bottom: 90px;
-    }
 
-    aside {
-        width: 100%;
-        padding-top: 0px;
-    }
-
-    aside .avatar img {
-        width: 100px;
-        height: 100px;
-    }
-}
 @media print {
     header {
         padding: 30px 0 10px 0;
@@ -272,12 +257,15 @@ main section{
     aside .avatar {
         top:-50px;
     }
+
     aside {
         width: 240px;
         border-right: 1px solid #ccc;
         padding-top: 50px;
     }
-
+    section .item img{
+        display: none;
+    }
     main > section.list h2{
         margin-bottom: 0;
     }
