@@ -182,6 +182,7 @@ section.list .item .title {
 main {
     flex: 1;
     min-height: calc(100vh - 162px);
+    margin: 0 10px;
 }
 
 .go {
@@ -228,6 +229,10 @@ section.blog .item h3{
 }
 section.blog .item{
     padding: 5px 0;
+}
+section .item img{
+    border: 1px solid #ddd;
+    border-style: dashed;
 }
 .keyword {
     display: flex;
