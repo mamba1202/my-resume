@@ -255,17 +255,24 @@ main section{
     }
 
     aside .avatar {
-        top:-50px;
+        top:-60px;
     }
 
     aside {
         width: 240px;
         border-right: 1px solid #ccc;
-        padding-top: 50px;
+        padding-top: 70px;
     }
     section .item img{
         display: none;
     }
+    aside .avatar img {
+        width: 120px;
+        height: 135px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        background: #ccc;
+    }    
     main > section.list h2{
         margin-bottom: 0;
     }
